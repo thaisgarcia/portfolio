@@ -678,10 +678,14 @@ footer{
 
 @media screen and (max-width:380px){
     #lang .container .itens img{
-        height: 3vh;
+        height: 5vh;
     }
     
     #contact .content-contact .linha{
-        width: 80px;
+        width: 200px;
+    }
+    
+    #port .container .card img{
+        max-width: 30vh;
     }
 }
