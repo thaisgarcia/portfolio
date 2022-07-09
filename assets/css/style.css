@@ -675,3 +675,13 @@ footer{
         height: 7vh;
     }
 }
+
+@media screen and (max-width:400px){
+    #lang .container .itens img{
+        height: 4vh;
+    }
+    
+    #contact .content-contact .linha{
+        width: 100px;
+    }
+}
