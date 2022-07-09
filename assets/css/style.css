@@ -1,0 +1,677 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: #0000;
+}
+
+
+/*** HEADER ***/
+header{
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(#100F0D, #250349);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 99;
+}
+
+header .logo{
+    width: 50%;
+}
+
+header .logo video{
+    height: 80px;
+}
+
+header .menu ul{
+    display: flex;
+    padding-right: 10px;
+}
+
+header .menu ul li{
+    padding: 0 20px 0 50px;
+    list-style: none;
+}
+
+header .menu ul li a{
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 0.8px;
+    transition: 0.5 ease;
+}
+
+header .menu ul li a:hover{
+    color: #7408cd;
+}
+
+header .btn-mobile, header .menu-mobile{
+    display: none;
+}
+
+
+/*** MAIN HOME ***/
+#home .container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#2c0457, #220245);
+    flex-direction: row;
+}
+
+.flex-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* icons */
+#home .container .icons{
+    width: 10%;
+    height: 80hv;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20vh 10vh;
+    position: fixed;
+    z-index: 999;
+}
+
+#home .container .icons ion-icon{
+    padding: 30px 0;
+    font-size: 2rem;
+    color: #fff;
+    transition: 0.5s ease;
+}
+
+#home .container .icons ion-icon:hover{
+    color: #7408cd;
+}
+
+/* image */
+#home .container .flex-container .image{
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+}
+
+#home .container .flex-container .image img{
+    height: 60vh;
+    border-radius: 50%;
+}
+
+/* title */
+#home .container .flex-container .title{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+#home .container .flex-container .title h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 4rem;
+    letter-spacing: 4px;
+}
+
+#home .container .flex-container .title h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 7px;
+}
+
+#home .container .flex-container .title h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 30px;
+    letter-spacing: 8px;
+}
+
+
+/*** ABOUT ***/
+#about .container{
+    width: 100%;
+    height: 110vh;
+    background: linear-gradient(#220245, black);
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+#about .container .title{
+    max-width: 90%;
+    height: 110vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .container .title h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+#about .container .title p{
+    color: #fff;
+    width: 100%;
+}
+
+/* languages */
+#about .container .box-title{
+    width: 600px;
+    height: 55vh;
+    margin-top: 40px;
+    padding: 2vh 3vh;
+    box-shadow: 0 0 10px 0 #7408cd;
+    border-radius: 20px;
+}
+
+#about .container .box-title span{
+    color: #fff;
+}
+
+#about .container .box-title .b1{
+    width: 100%;
+    height: 8px;
+    background: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#about .container .box-title .b2{
+    width: 90%;
+    height: 8px;
+    background: #570451;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#about .container .box-title .b3{
+    width: 78%;
+    height: 8px;
+    background: #570451;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#about .container .box-title .b4{
+    width: 75%;
+    height: 8px;
+    background: #570451;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#about .container .box-title .b5{
+    width: 70%;
+    height: 8px;
+    background: #570451;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#about .container .box-title .b6{
+    width: 65%;
+    height: 8px;
+    background: #570451;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+/*** LANGUAGES ***/
+#lang .container{
+    width: 100%;
+    height: 50vh;
+    background: black;
+    display: flex;
+    align-items: center;
+}
+
+#lang .container .itens{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content:center;
+}
+
+#lang .container .itens img{
+    height: 18vh;
+}
+
+
+/*** PORTFOLIO ***/
+#port .container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://multarte.com.br/wp-content/uploads/2018/12/fundo-roxo-escuro19.png) ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#port .container input[type=radio]{
+    display: none;
+}
+
+#port .container .card{
+    position: absolute;
+    width: 40%;
+    height: 76%;
+    left: 0;
+    right: 0;
+    margin: 120px auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: 0 0 10px 0 rgb(151, 2, 181);
+    transition: 0.4s ease;
+}
+
+#port .container .card .fundo{
+    width: 100%;
+    height: 100%;
+    min-width: 340px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: #7f03b9;
+}
+
+#port .container .card h1{
+    position: absolute;
+    z-index: 9;
+    color: #fff;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+#port .container .card p{
+    position: absolute;
+    z-index: 9;
+    color: #fff;
+    margin: 120px 20px 0 20px;
+    text-align: justify;
+}
+
+#port .container .card img{
+    position: absolute;
+    margin: 180px 0;
+    z-index: 9;
+    width: 450px;
+}
+
+#port .container .card a{
+    position: absolute;
+    z-index: 9;
+    margin-right: 60px;
+}
+
+#port .container .card input[type=button]{
+    position: absolute;
+    z-index: 9;
+    margin-top: 450px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background: #540067;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#port .container .cards{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#item-1:checked ~ .cards #song-3, 
+#item-2:checked ~ .cards #song-1, 
+#item-3:checked ~ .cards #song-2{
+    transform: translateX(-40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-2, 
+#item-2:checked ~ .cards #song-3, 
+#item-3:checked ~ .cards #song-1{
+    transform: translateX(40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+#item-1:checked ~ .cards #song-1, 
+#item-2:checked ~ .cards #song-2, 
+#item-3:checked ~ .cards #song-3{
+    transform: translateX(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+}
+
+
+/*** CONTACT ***/
+#contact .container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#42018b, #2c0457);
+}
+
+#contact .container .content-contact{
+    width: 80%;
+    height: 80vh;
+    margin: 0 auto;
+    padding: 200px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#contact .content-contact .contact-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+#contact .content-contact .contact-left h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#contact .content-contact .linha{
+    width: 350px;
+    height: 3px;
+    background: #fff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#contact .content-contact .contact-left ion-icon{
+    font-size: 1.5rem;
+    padding: 20px 0;
+}
+
+#contact .content-contact .contact-left span{
+    font-size: 1.1rem;
+    padding: 5px 0;
+}
+
+#contact .content-contact .contact-right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+#contact .content-contact .contact-right h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#contact .content-contact .contact-right form input[type=email],
+#contact .content-contact .contact-right form input[type=text]{
+    border-radius: 20px;
+    border: none;
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    outline: none;
+}
+
+#contact .content-contact .contact-right form textarea{
+    width: 100%;
+    height: 120px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    outline: none;
+    padding: 15px 20px;
+}
+
+#contact .content-contact .contact-right form input[type=submit]{
+    border: none;
+    width: 100px;
+    color: #fff;
+    background: #42018b;
+    border-radius: 30px;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+/*** FOOTER ***/
+footer{
+    width: 100%;
+    height: 80px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#250349, #100F0D);
+    justify-content: space-around;
+}
+
+
+/*** RESPOSIVE ***/
+@media screen and (max-width:1280px){
+    #home .container .icons ion-icon{
+        font-size: 1.5rem;
+    }
+
+    #home .container .flex-container .image{
+        width: 50%;
+    }
+
+    #home .container .flex-container .image img{
+        height: 45vh;
+        padding: 0px 20px;
+    }
+
+    #home .container .flex-container .title h1{
+        font-size: 3.5rem;
+    }
+    
+    #home .container .flex-container .title h2{
+        font-size: 2rem;
+        letter-spacing: 5px;
+    }
+    
+    #port .container .card p{
+        width: 280px;
+    }
+
+    #port .container #song-1 img{
+        margin-top: 210px;
+    }
+
+    #port .container #song-1 p{
+        margin-top: 110px;
+    }
+}
+
+@media screen and (max-width:990px){
+    #home .container .flex-container .image img{
+        height: 30vh;
+    }
+
+    header .menu{
+        display: none;
+    }
+
+    header .btn-mobile{
+        display: block;
+    }
+
+    header .btn-mobile ion-icon{
+        color: #fff;
+        font-size: 1.5rem;
+    }
+
+    header .menu-mobile{
+        display: none;
+        width: 40%;
+        height: 24vh;
+        box-shadow: 0 0 15px 0;
+        position: fixed;
+        top: 20px;
+        border-radius: 10px;
+        background: #250349;
+    }
+
+    header .menu-mobile ul{
+        text-align: center;
+    }
+
+    header .menu-mobile ul li{
+        list-style: none;
+        padding: 12px 0;
+    }
+
+    header .menu-mobile ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    #home .container .icons{
+        padding: 15vh 5vh;
+    }
+
+    #about .container .title{
+        align-items: center;
+    }
+
+    #about .container .box-title{
+        width: 100%;
+    }
+
+    #about .container .box-title .b1{
+        width: 100%;
+    }
+
+    #contact .container .content-contact{
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #contact .content-contact .contact-left h1{
+        font-size: 1.5rem;
+    }
+
+    #contact .content-contact .contact-left ion-icon{
+        font-size: 1.5rem;
+        padding: 5px 0;
+    }
+
+    #contact .content-contact .contact-left span{
+        font-size: 1rem;
+    }
+
+    #contact .content-contact .contact-right h1{
+        font-size: 1.5rem;
+        margin-top: 80px;
+    }
+
+    #contact .content-contact .contact-right form input[type=email],
+    #contact .content-contact .contact-right form input[type=text]{
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+
+    #contact .content-contact .contact-right form textarea{
+        padding: 10px 15px;
+        font-size: 1rem;
+    }
+
+    #port .container #song-1 img{
+        margin-top: 260px;
+    }
+
+    #port .container #song-1 p{
+        margin-top: 160px;
+    }
+
+    #port .container .card img{
+        max-width: 45vh;
+    }
+
+    #lang .container .itens img{
+        height: 10vh;
+    }
+}
+
+@media screen and (max-width:750px){
+    #home .container .flex-container .image{
+        display: none;
+    }
+
+    #home .container .flex-container .image img{
+        display: none;
+    }
+
+    #home .container .flex-container .title h1{
+        font-size: 2.7rem;
+    }
+    
+    #home .container .flex-container .title h2{
+        font-size: 1.5rem;
+        letter-spacing: 5px;
+    }
+
+    #port .container #song-1 p{
+        margin-top: 170px;
+    }
+
+    #port .container #song-1 img{
+        margin-top: 270px;
+    }
+    
+    #contact .content-contact .linha{
+        width: 300px;
+    }
+
+    #lang .container .itens img{
+        height: 7vh;
+    }
+}
