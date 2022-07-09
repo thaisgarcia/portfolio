@@ -682,7 +682,7 @@ footer{
     }
     
     #contact .content-contact .linha{
-        width: 200px;
+        width: 250px;
     }
     
     #port .container .card img{
@@ -691,5 +691,9 @@ footer{
     
     #port .container .card h1{
         font-size: 1.8rem;
+    }
+    
+    #port .container .card p{
+        width: 200px;
     }
 }
