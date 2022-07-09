@@ -676,12 +676,12 @@ footer{
     }
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:380px){
     #lang .container .itens img{
-        height: 4vh;
+        height: 3vh;
     }
     
     #contact .content-contact .linha{
-        width: 100px;
+        width: 80px;
     }
 }
