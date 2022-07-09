@@ -696,4 +696,12 @@ footer{
     #port .container .card p{
         width: 200px;
     }
+    
+    #port .container #song-1 p{
+        margin-top: 150px;
+    }
+    
+    #port .container #song-1 img{
+        margin-top: 300px;
+    }
 }
