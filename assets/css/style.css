@@ -678,7 +678,7 @@ footer{
     }
 }
 
-@media screen and (max-width:380px){
+@media screen and (max-width:500px){
     #lang .container .itens img{
         height: 5vh;
     }
