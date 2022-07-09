@@ -664,6 +664,10 @@ footer{
     #port .container #song-1 p{
         margin-top: 170px;
     }
+    
+    #port .container .card img{
+        max-width: 40vh;
+    }
 
     #port .container #song-1 img{
         margin-top: 270px;
