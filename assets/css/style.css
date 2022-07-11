@@ -260,7 +260,7 @@ header .btn-mobile, header .menu-mobile{
     width: 100%;
     align-items: center;
     display: flex;
-    justify-content:center;
+    justify-content: space-around;
 }
 
 #lang .container .itens img{
