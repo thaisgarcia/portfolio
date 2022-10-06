@@ -116,7 +116,7 @@ header .btn-mobile, header .menu-mobile{
 
 /* title */
 #home .container .title{
-    width: 50%;
+    width: 60%;
     height: 100vh;
     display:flex;
     flex-direction: column;
