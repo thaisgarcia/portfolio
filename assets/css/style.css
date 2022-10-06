@@ -561,7 +561,7 @@ footer{
     }
 
     #home .container .icons{
-        padding: 15vh 5vh;
+        padding: 15vh 0;
     }
 
     #about .container .title{
@@ -640,7 +640,7 @@ footer{
     }
 
     #home .container .title{
-        width: 90%;
+        width: 100%;
     }
     
     #home .container .title h1{
