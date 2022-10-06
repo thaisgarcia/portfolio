@@ -61,11 +61,19 @@ header .btn-mobile, header .menu-mobile{
 
 
 /*** MAIN HOME ***/
-#home .container{
+#home{
     width: 100%;
     height: 100vh;
     background: linear-gradient(#2c0457, #220245);
     flex-direction: row;
+}
+
+#home .container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 /* icons */
