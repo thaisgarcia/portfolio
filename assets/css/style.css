@@ -102,13 +102,13 @@ header .btn-mobile, header .menu-mobile{
 }
 
 #home .container .image img{
-    height: 10%;
+    height: 20%;
     border-radius: 50%;
 }
 
 /* title */
 #home .container .title{
-    width: 60%;
+    width: 50%;
     height: 100vh;
     display:flex;
     flex-direction: column;
