@@ -120,6 +120,7 @@ header .btn-mobile, header .menu-mobile{
     height: 100vh;
     display:flex;
     flex-direction: column;
+    text-align: center;
     align-items:center;
     justify-content: center;
 }
