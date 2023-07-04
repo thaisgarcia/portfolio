@@ -334,7 +334,6 @@ header .btn-mobile, header .menu-mobile{
 
 #port .container .card a{
     position: absolute;
-    display: flex;
     z-index: 9;
     margin-top: 80%;
 }
@@ -692,6 +691,10 @@ footer{
     
     #port .container .card p{
         width: 200px;
+    }
+
+    #port .container .card a{
+        margin-top: 90%;
     }
     
     #port .container #song-1 p{
