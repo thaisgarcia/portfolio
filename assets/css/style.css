@@ -335,13 +335,13 @@ header .btn-mobile, header .menu-mobile{
 #port .container .card a{
     position: absolute;
     z-index: 9;
-    align-items: center;
 }
 
 #port .container .card input[type=button]{
     position: absolute;
+    margin: 410px 20px 0 20px;
     z-index: 9;
-    margin: 450px 20px 0 20px;
+    padding: 10px;
     border-radius: 20px;
     border: none;
     color: #fff;
