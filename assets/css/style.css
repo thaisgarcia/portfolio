@@ -339,7 +339,7 @@ header .btn-mobile, header .menu-mobile{
 
 #port .container .card input[type=button]{
     align-items: center
-    margin: 80%;
+    margin-top: 80%;
     padding: 10px;
     border-radius: 20px;
     border: none;
