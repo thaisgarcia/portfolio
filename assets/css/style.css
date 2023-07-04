@@ -335,11 +335,11 @@ header .btn-mobile, header .menu-mobile{
 #port .container .card a{
     position: absolute;
     z-index: 9;
+    margin-top: 80%;
 }
 
 #port .container .card input[type=button]{
-    align-items: center
-    margin-top: 80%;
+    align-items: center;
     padding: 10px;
     border-radius: 20px;
     border: none;
