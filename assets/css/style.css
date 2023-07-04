@@ -334,12 +334,12 @@ header .btn-mobile, header .menu-mobile{
 
 #port .container .card a{
     position: absolute;
+    display: flex;
     z-index: 9;
     margin-top: 80%;
 }
 
 #port .container .card input[type=button]{
-    position: absolute;
     align-items: center;
     padding: 10px;
     border-radius: 20px;
