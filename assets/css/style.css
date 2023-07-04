@@ -342,7 +342,6 @@ header .btn-mobile, header .menu-mobile{
     position: absolute;
     z-index: 9;
     margin: 450px 20px 0 20px;
-    padding: 10px;
     border-radius: 20px;
     border: none;
     color: #fff;
