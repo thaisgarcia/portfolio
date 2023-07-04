@@ -341,7 +341,7 @@ header .btn-mobile, header .menu-mobile{
 #port .container .card input[type=button]{
     position: absolute;
     z-index: 9;
-    margin-top: 450px;
+    margin: 450px 20px 0 20px;
     padding: 10px;
     border-radius: 20px;
     border: none;
